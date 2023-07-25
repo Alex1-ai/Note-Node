@@ -28,13 +28,13 @@ let notes = [
   ]
 
 
-  app.get('/', (request, response)=>{
-    response.send('<h1>Hello world!</h1>')
-  })
+  // app.get('/', (request, response)=>{
+  //   response.send('<h1>Hello world!</h1>')
+  // })
   
 
   app.get('/api/notes', (request, response)=>{
-    console.log("jude")
+    // console.log("jude")
     response.json(notes)
   })
 
