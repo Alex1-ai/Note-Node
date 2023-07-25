@@ -3,11 +3,11 @@ const app = express()
 const cors = require('cors')
 app.use(express.json())
 app.use(cors())
-const unknwonEndpoint = (request, response)=>{
-  response.status(404).send({error:'unknown endpoint'})
-}
+// const unknwonEndpoint = (request, response)=>{
+//   response.status(404).send({error:'unknown endpoint'})
+// }
 
-app.use(unknwonEndpoint)
+// app.use(unknwonEndpoint)
 let notes = [
     {
       id: 1,
